@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-image: url('images/scott-webb-186119-unsplash.jpg');
+    overflow-x: hidden;
+}
+
+#my-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0 15px 0;
+    font-size: 1.2em;
+    font-weight: 900;
+    padding: 0;
+}
+
+#my-nav a {
+    color: white;
+}
+
+#hero {
+    text-align: center;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#hero h1 {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+#hero a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 1em;
+}
+
+#about-us {
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+#about-us .box {
+    padding: 0 30px;
+}
+
+#about-us .inner {
+    padding: 50px 30px 20px 30px;
+    background-color: white;
+}
+
+#about-us .icons {
+    padding-bottom: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+#use-case .row {
+    margin-bottom: 100px;
+}
+
+#use-case .box {
+    color: white;
+    text-align: left;
+    padding: 0 100px;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+#support .box {
+    color: white;
+    text-align: left;
+    padding: 0 100px;
+}
+
+#support p {
+    margin-bottom: 50px;
+}
+
+#support a {
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 1em;
+}
+
+#support .icons {
+    height: 80px;
+    width: 80px;
+}
+
+@media only screen and (max-width: 767.98px) {
+    #my-nav {
+        justify-content: flex-start;
+    }
+
+    #hero h1 {
+        font-size: 3em;
+    }
+
+    #about-us {
+        margin-top: 0;
+    }
+
+    #use-case .box {
+        text-align: center;
+        padding: 0 50px;
+    }
+
+    #use-case h2 {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    #my-nav {
+        justify-content: center;
+        text-align: center;
+    }
+
+    #hero {
+        padding: 0 100px;
+    }
+
+    #hero h1 {
+        margin-top: 30px;
+        font-size: 2.5em;
+    }
+}
